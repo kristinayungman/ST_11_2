@@ -1,0 +1,362 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\\u043F\u044031\u0413\u0430\u0440\u0438\u0435\u0432\\\u0422\u0420\u041F\u041E2\u0421\u0435\u043C\\TRPO12_2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A00DA195-323E-4579-B4F6-36606A4A5FC6}|TRPO12_2\\TRPO12_2.csproj|c:\\\u043F\u044031\u0433\u0430\u0440\u0438\u0435\u0432\\\u0442\u0440\u043F\u043E2\u0441\u0435\u043C\\trpo12_2\\trpo12_2\\pages\\polzovatformpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A00DA195-323E-4579-B4F6-36606A4A5FC6}|TRPO12_2\\TRPO12_2.csproj|solutionrelative:trpo12_2\\pages\\polzovatformpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A00DA195-323E-4579-B4F6-36606A4A5FC6}|TRPO12_2\\TRPO12_2.csproj|c:\\\u043F\u044031\u0433\u0430\u0440\u0438\u0435\u0432\\\u0442\u0440\u043F\u043E2\u0441\u0435\u043C\\trpo12_2\\trpo12_2\\service\\basedbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A00DA195-323E-4579-B4F6-36606A4A5FC6}|TRPO12_2\\TRPO12_2.csproj|solutionrelative:trpo12_2\\service\\basedbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A00DA195-323E-4579-B4F6-36606A4A5FC6}|TRPO12_2\\TRPO12_2.csproj|c:\\\u043F\u044031\u0433\u0430\u0440\u0438\u0435\u0432\\\u0442\u0440\u043F\u043E2\u0441\u0435\u043C\\trpo12_2\\trpo12_2\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A00DA195-323E-4579-B4F6-36606A4A5FC6}|TRPO12_2\\TRPO12_2.csproj|solutionrelative:trpo12_2\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A00DA195-323E-4579-B4F6-36606A4A5FC6}|TRPO12_2\\TRPO12_2.csproj|c:\\\u043F\u044031\u0433\u0430\u0440\u0438\u0435\u0432\\\u0442\u0440\u043F\u043E2\u0441\u0435\u043C\\trpo12_2\\trpo12_2\\pages\\polzovatformpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A00DA195-323E-4579-B4F6-36606A4A5FC6}|TRPO12_2\\TRPO12_2.csproj|solutionrelative:trpo12_2\\pages\\polzovatformpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A00DA195-323E-4579-B4F6-36606A4A5FC6}|TRPO12_2\\TRPO12_2.csproj|c:\\\u043F\u044031\u0433\u0430\u0440\u0438\u0435\u0432\\\u0442\u0440\u043F\u043E2\u0441\u0435\u043C\\trpo12_2\\trpo12_2\\service\\polzovatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A00DA195-323E-4579-B4F6-36606A4A5FC6}|TRPO12_2\\TRPO12_2.csproj|solutionrelative:trpo12_2\\service\\polzovatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A00DA195-323E-4579-B4F6-36606A4A5FC6}|TRPO12_2\\TRPO12_2.csproj|c:\\\u043F\u044031\u0433\u0430\u0440\u0438\u0435\u0432\\\u0442\u0440\u043F\u043E2\u0441\u0435\u043C\\trpo12_2\\trpo12_2\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A00DA195-323E-4579-B4F6-36606A4A5FC6}|TRPO12_2\\TRPO12_2.csproj|solutionrelative:trpo12_2\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A00DA195-323E-4579-B4F6-36606A4A5FC6}|TRPO12_2\\TRPO12_2.csproj|c:\\\u043F\u044031\u0433\u0430\u0440\u0438\u0435\u0432\\\u0442\u0440\u043F\u043E2\u0441\u0435\u043C\\trpo12_2\\trpo12_2\\validationrules\\null.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A00DA195-323E-4579-B4F6-36606A4A5FC6}|TRPO12_2\\TRPO12_2.csproj|solutionrelative:trpo12_2\\validationrules\\null.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A00DA195-323E-4579-B4F6-36606A4A5FC6}|TRPO12_2\\TRPO12_2.csproj|c:\\\u043F\u044031\u0433\u0430\u0440\u0438\u0435\u0432\\\u0442\u0440\u043F\u043E2\u0441\u0435\u043C\\trpo12_2\\trpo12_2\\polzovat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A00DA195-323E-4579-B4F6-36606A4A5FC6}|TRPO12_2\\TRPO12_2.csproj|solutionrelative:trpo12_2\\polzovat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A00DA195-323E-4579-B4F6-36606A4A5FC6}|TRPO12_2\\TRPO12_2.csproj|c:\\\u043F\u044031\u0433\u0430\u0440\u0438\u0435\u0432\\\u0442\u0440\u043F\u043E2\u0441\u0435\u043C\\trpo12_2\\trpo12_2\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A00DA195-323E-4579-B4F6-36606A4A5FC6}|TRPO12_2\\TRPO12_2.csproj|solutionrelative:trpo12_2\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A00DA195-323E-4579-B4F6-36606A4A5FC6}|TRPO12_2\\TRPO12_2.csproj|c:\\\u043F\u044031\u0433\u0430\u0440\u0438\u0435\u0432\\\u0442\u0440\u043F\u043E2\u0441\u0435\u043C\\trpo12_2\\trpo12_2\\observableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A00DA195-323E-4579-B4F6-36606A4A5FC6}|TRPO12_2\\TRPO12_2.csproj|solutionrelative:trpo12_2\\observableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A00DA195-323E-4579-B4F6-36606A4A5FC6}|TRPO12_2\\TRPO12_2.csproj|c:\\\u043F\u044031\u0433\u0430\u0440\u0438\u0435\u0432\\\u0442\u0440\u043F\u043E2\u0441\u0435\u043C\\trpo12_2\\trpo12_2\\validationrules\\namess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A00DA195-323E-4579-B4F6-36606A4A5FC6}|TRPO12_2\\TRPO12_2.csproj|solutionrelative:trpo12_2\\validationrules\\namess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A00DA195-323E-4579-B4F6-36606A4A5FC6}|TRPO12_2\\TRPO12_2.csproj|c:\\\u043F\u044031\u0433\u0430\u0440\u0438\u0435\u0432\\\u0442\u0440\u043F\u043E2\u0441\u0435\u043C\\trpo12_2\\trpo12_2\\validationrules\\loginvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A00DA195-323E-4579-B4F6-36606A4A5FC6}|TRPO12_2\\TRPO12_2.csproj|solutionrelative:trpo12_2\\validationrules\\loginvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A00DA195-323E-4579-B4F6-36606A4A5FC6}|TRPO12_2\\TRPO12_2.csproj|c:\\\u043F\u044031\u0433\u0430\u0440\u0438\u0435\u0432\\\u0442\u0440\u043F\u043E2\u0441\u0435\u043C\\trpo12_2\\trpo12_2\\validationrules\\passval.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A00DA195-323E-4579-B4F6-36606A4A5FC6}|TRPO12_2\\TRPO12_2.csproj|solutionrelative:trpo12_2\\validationrules\\passval.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A00DA195-323E-4579-B4F6-36606A4A5FC6}|TRPO12_2\\TRPO12_2.csproj|c:\\\u043F\u044031\u0433\u0430\u0440\u0438\u0435\u0432\\\u0442\u0440\u043F\u043E2\u0441\u0435\u043C\\trpo12_2\\trpo12_2\\validationrules\\emailval.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A00DA195-323E-4579-B4F6-36606A4A5FC6}|TRPO12_2\\TRPO12_2.csproj|solutionrelative:trpo12_2\\validationrules\\emailval.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A00DA195-323E-4579-B4F6-36606A4A5FC6}|TRPO12_2\\TRPO12_2.csproj|c:\\\u043F\u044031\u0433\u0430\u0440\u0438\u0435\u0432\\\u0442\u0440\u043F\u043E2\u0441\u0435\u043C\\trpo12_2\\trpo12_2\\trpo12_2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A00DA195-323E-4579-B4F6-36606A4A5FC6}|TRPO12_2\\TRPO12_2.csproj|solutionrelative:trpo12_2\\trpo12_2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A00DA195-323E-4579-B4F6-36606A4A5FC6}|TRPO12_2\\TRPO12_2.csproj|c:\\\u043F\u044031\u0433\u0430\u0440\u0438\u0435\u0432\\\u0442\u0440\u043F\u043E2\u0441\u0435\u043C\\trpo12_2\\trpo12_2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A00DA195-323E-4579-B4F6-36606A4A5FC6}|TRPO12_2\\TRPO12_2.csproj|solutionrelative:trpo12_2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A00DA195-323E-4579-B4F6-36606A4A5FC6}|TRPO12_2\\TRPO12_2.csproj|c:\\\u043F\u044031\u0433\u0430\u0440\u0438\u0435\u0432\\\u0442\u0440\u043F\u043E2\u0441\u0435\u043C\\trpo12_2\\trpo12_2\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A00DA195-323E-4579-B4F6-36606A4A5FC6}|TRPO12_2\\TRPO12_2.csproj|solutionrelative:trpo12_2\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A00DA195-323E-4579-B4F6-36606A4A5FC6}|TRPO12_2\\TRPO12_2.csproj|c:\\\u043F\u044031\u0433\u0430\u0440\u0438\u0435\u0432\\\u0442\u0440\u043F\u043E2\u0441\u0435\u043C\\trpo12_2\\trpo12_2\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A00DA195-323E-4579-B4F6-36606A4A5FC6}|TRPO12_2\\TRPO12_2.csproj|solutionrelative:trpo12_2\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A00DA195-323E-4579-B4F6-36606A4A5FC6}|TRPO12_2\\TRPO12_2.csproj|c:\\\u043F\u044031\u0433\u0430\u0440\u0438\u0435\u0432\\\u0442\u0440\u043F\u043E2\u0441\u0435\u043C\\trpo12_2\\trpo12_2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A00DA195-323E-4579-B4F6-36606A4A5FC6}|TRPO12_2\\TRPO12_2.csproj|solutionrelative:trpo12_2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A00DA195-323E-4579-B4F6-36606A4A5FC6}|TRPO12_2\\TRPO12_2.csproj|c:\\\u043F\u044031\u0433\u0430\u0440\u0438\u0435\u0432\\\u0442\u0440\u043F\u043E2\u0441\u0435\u043C\\trpo12_2\\trpo12_2\\migrations\\20260131052429_datedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A00DA195-323E-4579-B4F6-36606A4A5FC6}|TRPO12_2\\TRPO12_2.csproj|solutionrelative:trpo12_2\\migrations\\20260131052429_datedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A00DA195-323E-4579-B4F6-36606A4A5FC6}|TRPO12_2\\TRPO12_2.csproj|c:\\\u043F\u044031\u0433\u0430\u0440\u0438\u0435\u0432\\\u0442\u0440\u043F\u043E2\u0441\u0435\u043C\\trpo12_2\\trpo12_2\\migrations\\20260131051551_initialdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A00DA195-323E-4579-B4F6-36606A4A5FC6}|TRPO12_2\\TRPO12_2.csproj|solutionrelative:trpo12_2\\migrations\\20260131051551_initialdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Null.cs",
+              "DocumentMoniker": "C:\\\u043F\u044031\u0413\u0430\u0440\u0438\u0435\u0432\\\u0422\u0420\u041F\u041E2\u0421\u0435\u043C\\TRPO12_2\\TRPO12_2\\ValidationRules\\Null.cs",
+              "RelativeDocumentMoniker": "TRPO12_2\\ValidationRules\\Null.cs",
+              "ToolTip": "C:\\\u043F\u044031\u0413\u0430\u0440\u0438\u0435\u0432\\\u0422\u0420\u041F\u041E2\u0421\u0435\u043C\\TRPO12_2\\TRPO12_2\\ValidationRules\\Null.cs",
+              "RelativeToolTip": "TRPO12_2\\ValidationRules\\Null.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T06:21:24.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PolzovatFormPage.xaml",
+              "DocumentMoniker": "C:\\\u043F\u044031\u0413\u0430\u0440\u0438\u0435\u0432\\\u0422\u0420\u041F\u041E2\u0421\u0435\u043C\\TRPO12_2\\TRPO12_2\\Pages\\PolzovatFormPage.xaml",
+              "RelativeDocumentMoniker": "TRPO12_2\\Pages\\PolzovatFormPage.xaml",
+              "ToolTip": "C:\\\u043F\u044031\u0413\u0430\u0440\u0438\u0435\u0432\\\u0422\u0420\u041F\u041E2\u0421\u0435\u043C\\TRPO12_2\\TRPO12_2\\Pages\\PolzovatFormPage.xaml",
+              "RelativeToolTip": "TRPO12_2\\Pages\\PolzovatFormPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-31T05:35:15.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BaseDbService.cs",
+              "DocumentMoniker": "C:\\\u043F\u044031\u0413\u0430\u0440\u0438\u0435\u0432\\\u0422\u0420\u041F\u041E2\u0421\u0435\u043C\\TRPO12_2\\TRPO12_2\\Service\\BaseDbService.cs",
+              "RelativeDocumentMoniker": "TRPO12_2\\Service\\BaseDbService.cs",
+              "ToolTip": "C:\\\u043F\u044031\u0413\u0430\u0440\u0438\u0435\u0432\\\u0422\u0420\u041F\u041E2\u0421\u0435\u043C\\TRPO12_2\\TRPO12_2\\Service\\BaseDbService.cs",
+              "RelativeToolTip": "TRPO12_2\\Service\\BaseDbService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T05:43:11.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Polzovat.cs",
+              "DocumentMoniker": "C:\\\u043F\u044031\u0413\u0430\u0440\u0438\u0435\u0432\\\u0422\u0420\u041F\u041E2\u0421\u0435\u043C\\TRPO12_2\\TRPO12_2\\Polzovat.cs",
+              "RelativeDocumentMoniker": "TRPO12_2\\Polzovat.cs",
+              "ToolTip": "C:\\\u043F\u044031\u0413\u0430\u0440\u0438\u0435\u0432\\\u0422\u0420\u041F\u041E2\u0421\u0435\u043C\\TRPO12_2\\TRPO12_2\\Polzovat.cs",
+              "RelativeToolTip": "TRPO12_2\\Polzovat.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAuwAsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T05:12:12.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\\u043F\u044031\u0413\u0430\u0440\u0438\u0435\u0432\\\u0422\u0420\u041F\u041E2\u0421\u0435\u043C\\TRPO12_2\\TRPO12_2\\App.xaml",
+              "RelativeDocumentMoniker": "TRPO12_2\\App.xaml",
+              "ToolTip": "C:\\\u043F\u044031\u0413\u0430\u0440\u0438\u0435\u0432\\\u0422\u0420\u041F\u041E2\u0421\u0435\u043C\\TRPO12_2\\TRPO12_2\\App.xaml",
+              "RelativeToolTip": "TRPO12_2\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-31T06:18:20.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TRPO12_2.csproj",
+              "DocumentMoniker": "C:\\\u043F\u044031\u0413\u0430\u0440\u0438\u0435\u0432\\\u0422\u0420\u041F\u041E2\u0421\u0435\u043C\\TRPO12_2\\TRPO12_2\\TRPO12_2.csproj",
+              "RelativeDocumentMoniker": "TRPO12_2\\TRPO12_2.csproj",
+              "ToolTip": "C:\\\u043F\u044031\u0413\u0430\u0440\u0438\u0435\u0432\\\u0422\u0420\u041F\u041E2\u0421\u0435\u043C\\TRPO12_2\\TRPO12_2\\TRPO12_2.csproj",
+              "RelativeToolTip": "TRPO12_2\\TRPO12_2.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-31T05:11:59.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PolzovatFormPage.xaml.cs",
+              "DocumentMoniker": "C:\\\u043F\u044031\u0413\u0430\u0440\u0438\u0435\u0432\\\u0422\u0420\u041F\u041E2\u0421\u0435\u043C\\TRPO12_2\\TRPO12_2\\Pages\\PolzovatFormPage.xaml.cs",
+              "RelativeDocumentMoniker": "TRPO12_2\\Pages\\PolzovatFormPage.xaml.cs",
+              "ToolTip": "C:\\\u043F\u044031\u0413\u0430\u0440\u0438\u0435\u0432\\\u0422\u0420\u041F\u041E2\u0421\u0435\u043C\\TRPO12_2\\TRPO12_2\\Pages\\PolzovatFormPage.xaml.cs",
+              "RelativeToolTip": "TRPO12_2\\Pages\\PolzovatFormPage.xaml.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAABAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T05:39:26.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PolzovatService.cs",
+              "DocumentMoniker": "C:\\\u043F\u044031\u0413\u0430\u0440\u0438\u0435\u0432\\\u0422\u0420\u041F\u041E2\u0421\u0435\u043C\\TRPO12_2\\TRPO12_2\\Service\\PolzovatService.cs",
+              "RelativeDocumentMoniker": "TRPO12_2\\Service\\PolzovatService.cs",
+              "ToolTip": "C:\\\u043F\u044031\u0413\u0430\u0440\u0438\u0435\u0432\\\u0422\u0420\u041F\u041E2\u0421\u0435\u043C\\TRPO12_2\\TRPO12_2\\Service\\PolzovatService.cs",
+              "RelativeToolTip": "TRPO12_2\\Service\\PolzovatService.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAgwCgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T05:43:55.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\\u043F\u044031\u0413\u0430\u0440\u0438\u0435\u0432\\\u0422\u0420\u041F\u041E2\u0421\u0435\u043C\\TRPO12_2\\TRPO12_2\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "TRPO12_2\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\\u043F\u044031\u0413\u0430\u0440\u0438\u0435\u0432\\\u0422\u0420\u041F\u041E2\u0421\u0435\u043C\\TRPO12_2\\TRPO12_2\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "TRPO12_2\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T05:10:01.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\\u043F\u044031\u0413\u0430\u0440\u0438\u0435\u0432\\\u0422\u0420\u041F\u041E2\u0421\u0435\u043C\\TRPO12_2\\TRPO12_2\\Pages\\MainPage.xaml",
+              "RelativeDocumentMoniker": "TRPO12_2\\Pages\\MainPage.xaml",
+              "ToolTip": "C:\\\u043F\u044031\u0413\u0430\u0440\u0438\u0435\u0432\\\u0422\u0420\u041F\u041E2\u0421\u0435\u043C\\TRPO12_2\\TRPO12_2\\Pages\\MainPage.xaml",
+              "RelativeToolTip": "TRPO12_2\\Pages\\MainPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-31T05:28:07.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ObservableObject.cs",
+              "DocumentMoniker": "C:\\\u043F\u044031\u0413\u0430\u0440\u0438\u0435\u0432\\\u0422\u0420\u041F\u041E2\u0421\u0435\u043C\\TRPO12_2\\TRPO12_2\\ObservableObject.cs",
+              "RelativeDocumentMoniker": "TRPO12_2\\ObservableObject.cs",
+              "ToolTip": "C:\\\u043F\u044031\u0413\u0430\u0440\u0438\u0435\u0432\\\u0422\u0420\u041F\u041E2\u0421\u0435\u043C\\TRPO12_2\\TRPO12_2\\ObservableObject.cs",
+              "RelativeToolTip": "TRPO12_2\\ObservableObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T05:55:20.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\\u043F\u044031\u0413\u0430\u0440\u0438\u0435\u0432\\\u0422\u0420\u041F\u041E2\u0421\u0435\u043C\\TRPO12_2\\TRPO12_2\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "TRPO12_2\\MainWindow.xaml",
+              "ToolTip": "C:\\\u043F\u044031\u0413\u0430\u0440\u0438\u0435\u0432\\\u0422\u0420\u041F\u041E2\u0421\u0435\u043C\\TRPO12_2\\TRPO12_2\\MainWindow.xaml",
+              "RelativeToolTip": "TRPO12_2\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-31T05:01:39.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PassVal.cs",
+              "DocumentMoniker": "C:\\\u043F\u044031\u0413\u0430\u0440\u0438\u0435\u0432\\\u0422\u0420\u041F\u041E2\u0421\u0435\u043C\\TRPO12_2\\TRPO12_2\\ValidationRules\\PassVal.cs",
+              "RelativeDocumentMoniker": "TRPO12_2\\ValidationRules\\PassVal.cs",
+              "ToolTip": "C:\\\u043F\u044031\u0413\u0430\u0440\u0438\u0435\u0432\\\u0422\u0420\u041F\u041E2\u0421\u0435\u043C\\TRPO12_2\\TRPO12_2\\ValidationRules\\PassVal.cs",
+              "RelativeToolTip": "TRPO12_2\\ValidationRules\\PassVal.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T09:55:55.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EmailVal.cs",
+              "DocumentMoniker": "C:\\\u043F\u044031\u0413\u0430\u0440\u0438\u0435\u0432\\\u0422\u0420\u041F\u041E2\u0421\u0435\u043C\\TRPO12_2\\TRPO12_2\\ValidationRules\\EmailVal.cs",
+              "RelativeDocumentMoniker": "TRPO12_2\\ValidationRules\\EmailVal.cs",
+              "ToolTip": "C:\\\u043F\u044031\u0413\u0430\u0440\u0438\u0435\u0432\\\u0422\u0420\u041F\u041E2\u0421\u0435\u043C\\TRPO12_2\\TRPO12_2\\ValidationRules\\EmailVal.cs",
+              "RelativeToolTip": "TRPO12_2\\ValidationRules\\EmailVal.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T10:15:00.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LoginValidation.cs",
+              "DocumentMoniker": "C:\\\u043F\u044031\u0413\u0430\u0440\u0438\u0435\u0432\\\u0422\u0420\u041F\u041E2\u0421\u0435\u043C\\TRPO12_2\\TRPO12_2\\ValidationRules\\LoginValidation.cs",
+              "RelativeDocumentMoniker": "TRPO12_2\\ValidationRules\\LoginValidation.cs",
+              "ToolTip": "C:\\\u043F\u044031\u0413\u0430\u0440\u0438\u0435\u0432\\\u0422\u0420\u041F\u041E2\u0421\u0435\u043C\\TRPO12_2\\TRPO12_2\\ValidationRules\\LoginValidation.cs",
+              "RelativeToolTip": "TRPO12_2\\ValidationRules\\LoginValidation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T06:28:02.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Namess.cs",
+              "DocumentMoniker": "C:\\\u043F\u044031\u0413\u0430\u0440\u0438\u0435\u0432\\\u0422\u0420\u041F\u041E2\u0421\u0435\u043C\\TRPO12_2\\TRPO12_2\\ValidationRules\\Namess.cs",
+              "RelativeDocumentMoniker": "TRPO12_2\\ValidationRules\\Namess.cs",
+              "ToolTip": "C:\\\u043F\u044031\u0413\u0430\u0440\u0438\u0435\u0432\\\u0422\u0420\u041F\u041E2\u0421\u0435\u043C\\TRPO12_2\\TRPO12_2\\ValidationRules\\Namess.cs",
+              "RelativeToolTip": "TRPO12_2\\ValidationRules\\Namess.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T18:29:38.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\\u043F\u044031\u0413\u0430\u0440\u0438\u0435\u0432\\\u0422\u0420\u041F\u041E2\u0421\u0435\u043C\\TRPO12_2\\TRPO12_2\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "TRPO12_2\\AssemblyInfo.cs",
+              "ToolTip": "C:\\\u043F\u044031\u0413\u0430\u0440\u0438\u0435\u0432\\\u0422\u0420\u041F\u041E2\u0421\u0435\u043C\\TRPO12_2\\TRPO12_2\\AssemblyInfo.cs",
+              "RelativeToolTip": "TRPO12_2\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T05:18:44.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\\u043F\u044031\u0413\u0430\u0440\u0438\u0435\u0432\\\u0422\u0420\u041F\u041E2\u0421\u0435\u043C\\TRPO12_2\\TRPO12_2\\Pages\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "TRPO12_2\\Pages\\MainPage.xaml.cs",
+              "ToolTip": "C:\\\u043F\u044031\u0413\u0430\u0440\u0438\u0435\u0432\\\u0422\u0420\u041F\u041E2\u0421\u0435\u043C\\TRPO12_2\\TRPO12_2\\Pages\\MainPage.xaml.cs",
+              "RelativeToolTip": "TRPO12_2\\Pages\\MainPage.xaml.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAA1wBUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T05:32:13.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20260131052429_DateDB.cs",
+              "DocumentMoniker": "C:\\\u043F\u044031\u0413\u0430\u0440\u0438\u0435\u0432\\\u0422\u0420\u041F\u041E2\u0421\u0435\u043C\\TRPO12_2\\TRPO12_2\\Migrations\\20260131052429_DateDB.cs",
+              "RelativeDocumentMoniker": "TRPO12_2\\Migrations\\20260131052429_DateDB.cs",
+              "ToolTip": "C:\\\u043F\u044031\u0413\u0430\u0440\u0438\u0435\u0432\\\u0422\u0420\u041F\u041E2\u0421\u0435\u043C\\TRPO12_2\\TRPO12_2\\Migrations\\20260131052429_DateDB.cs",
+              "RelativeToolTip": "TRPO12_2\\Migrations\\20260131052429_DateDB.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T05:24:29.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20260131051551_InitialDB.cs",
+              "DocumentMoniker": "C:\\\u043F\u044031\u0413\u0430\u0440\u0438\u0435\u0432\\\u0422\u0420\u041F\u041E2\u0421\u0435\u043C\\TRPO12_2\\TRPO12_2\\Migrations\\20260131051551_InitialDB.cs",
+              "RelativeDocumentMoniker": "TRPO12_2\\Migrations\\20260131051551_InitialDB.cs",
+              "ToolTip": "C:\\\u043F\u044031\u0413\u0430\u0440\u0438\u0435\u0432\\\u0422\u0420\u041F\u041E2\u0421\u0435\u043C\\TRPO12_2\\TRPO12_2\\Migrations\\20260131051551_InitialDB.cs",
+              "RelativeToolTip": "TRPO12_2\\Migrations\\20260131051551_InitialDB.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T05:15:51.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\\u043F\u044031\u0413\u0430\u0440\u0438\u0435\u0432\\\u0422\u0420\u041F\u041E2\u0421\u0435\u043C\\TRPO12_2\\TRPO12_2\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "TRPO12_2\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\\u043F\u044031\u0413\u0430\u0440\u0438\u0435\u0432\\\u0422\u0420\u041F\u041E2\u0421\u0435\u043C\\TRPO12_2\\TRPO12_2\\MainWindow.xaml.cs",
+              "RelativeToolTip": "TRPO12_2\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T05:01:37.406Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
