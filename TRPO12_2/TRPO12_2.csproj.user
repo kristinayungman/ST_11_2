@@ -13,6 +13,12 @@
     <Compile Update="Pages\PolzovatFormPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Pages\RoleForm.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\RoleList.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="MainWindow.xaml">
@@ -22,6 +28,12 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Pages\PolzovatFormPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\RoleForm.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\RoleList.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

@@ -2,6 +2,7 @@
       xmlns:validators="clr-namespace:TRPO12_2.ValidationRules"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+       xmlns:service="clr-namespace:TRPO12_2.Service"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:TRPO12_2.Pages"
@@ -9,9 +10,23 @@
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="PolzovatFormPage"
-            Background="White">
+            Background="White"
+      >
+    <Page.Resources>
+        <service:RolesService x:Key="gService"/>
+    </Page.Resources>
+
     <Grid>
         <StackPanel>
+            <StackPanel>
+                        <Border BorderBrush="LightGray" BorderThickness="1" CornerRadius="4" Width="120" Height="120" HorizontalAlignment="Left">
+                            <Image Source="{Binding Profile.AvatarUrl}"/>
+                        </Border>
+            </StackPanel>
+            <StackPanel>
+                <Label>Роль</Label>
+                <ComboBox ItemsSource="{Binding Source={StaticResource gService}, Path=Roles}" DisplayMemberPath="Title" SelectedItem="{Binding Role}"/>
+            </StackPanel>
             <StackPanel>
                 <Label>Логин</Label>
                 <TextBox x:Name="LoginTextBox">
@@ -116,6 +131,26 @@ ItemsSource="{Binding ElementName=NameTextBox, Path=(Validation.Errors)}">
                         </DataTemplate>
                     </ItemsControl.ItemTemplate>
                 </ItemsControl>
+            </StackPanel>
+            <StackPanel>
+                <Label>Серия паспорта</Label>
+                <TextBox Text="{Binding Passport.Series}"/>
+            </StackPanel>
+            <StackPanel>
+                <Label>Номер паспорта</Label>
+                <TextBox Text="{Binding Passport.Number}"/>
+            </StackPanel>
+            <StackPanel>
+                <TextBlock>Номер телефона</TextBlock>
+                <TextBox Text="{Binding Profile.Phone}"/>
+            </StackPanel>
+            <StackPanel>
+                <TextBlock >День рождения</TextBlock>
+                <DatePicker SelectedDate="{Binding Profile.Birthday}"/>
+            </StackPanel>
+            <StackPanel>
+                <TextBlock >Описание</TextBlock>
+                <TextBox Text="{Binding Profile.Bio}"/>
             </StackPanel>
             <StackPanel>
                 <Button Click="Button_Click">Сохранить в БД</Button>

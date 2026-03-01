@@ -36,6 +36,13 @@ namespace TRPO12_2.Pages
             {
                  _polzovat.CreateAt = DateTime.Now;
             }
+            if (_polzovat.Passport == null) //если сущности паспорта нет - создаем её
+                _polzovat.Passport = new();
+            if (_polzovat.Profile == null) //если сущности профиля нет - создаем её
+                _polzovat.Profile = new();
+
+           /* var rolesService = (RolesService)FindResource("gService");
+            rolesService.GetAll();*/
             DataContext = _polzovat;
         }
 

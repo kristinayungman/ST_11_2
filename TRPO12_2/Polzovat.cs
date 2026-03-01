@@ -46,5 +46,32 @@ namespace TRPO12_2
             get => _created;
             set => SetProperty(ref _created, value);
         }
+        private Passport _passport;
+        public Passport Passport
+        {
+            get => _passport;
+            set => SetProperty(ref _passport, value);
+        }
+
+        private UserProfile _profile;
+        public UserProfile Profile
+        {
+            get => _profile;
+            set => SetProperty(ref _profile, value);
+        }
+
+        private int _roleId;
+        public int RoleId
+        {
+            get => _roleId;
+            set => SetProperty(ref _roleId, value);
+        }
+        private Role _role;
+        public Role Role
+        {
+            get => _role;
+            set => SetProperty(ref _role, value);
+        }
+
     }
 }

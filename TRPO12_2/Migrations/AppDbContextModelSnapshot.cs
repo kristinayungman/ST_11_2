@@ -22,6 +22,31 @@ namespace TRPO12_2.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("TRPO12_2.Passport", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("Number")
+                        .HasColumnType("int");
+
+                    b.Property<int>("PolzovatId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Series")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("PolzovatId")
+                        .IsUnique();
+
+                    b.ToTable("Passports");
+                });
+
             modelBuilder.Entity("TRPO12_2.Polzovat", b =>
                 {
                     b.Property<int>("Id")
@@ -49,9 +74,109 @@ namespace TRPO12_2.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("RoleId")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
+                    b.HasIndex("RoleId");
+
                     b.ToTable("Polzovats");
+                });
+
+            modelBuilder.Entity("TRPO12_2.Role", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Roles");
+                });
+
+            modelBuilder.Entity("TRPO12_2.UserProfile", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("AvatarUrl")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Bio")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("Birthday")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Phone")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("PolzovatId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("PolzovatId")
+                        .IsUnique();
+
+                    b.ToTable("UserProfiles");
+                });
+
+            modelBuilder.Entity("TRPO12_2.Passport", b =>
+                {
+                    b.HasOne("TRPO12_2.Polzovat", "Student")
+                        .WithOne("Passport")
+                        .HasForeignKey("TRPO12_2.Passport", "PolzovatId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Student");
+                });
+
+            modelBuilder.Entity("TRPO12_2.Polzovat", b =>
+                {
+                    b.HasOne("TRPO12_2.Role", "Role")
+                        .WithMany("Polzovats")
+                        .HasForeignKey("RoleId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Role");
+                });
+
+            modelBuilder.Entity("TRPO12_2.UserProfile", b =>
+                {
+                    b.HasOne("TRPO12_2.Polzovat", "Polzovat")
+                        .WithOne("Profile")
+                        .HasForeignKey("TRPO12_2.UserProfile", "PolzovatId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Polzovat");
+                });
+
+            modelBuilder.Entity("TRPO12_2.Polzovat", b =>
+                {
+                    b.Navigation("Passport")
+                        .IsRequired();
+
+                    b.Navigation("Profile")
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("TRPO12_2.Role", b =>
+                {
+                    b.Navigation("Polzovats");
                 });
 #pragma warning restore 612, 618
         }

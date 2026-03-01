@@ -56,5 +56,10 @@ namespace TRPO12_2.Pages
                 service.Remove(polzovat);
             }
         }
+
+        private void go_roles(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new RoleList());
+        }
     }
 }

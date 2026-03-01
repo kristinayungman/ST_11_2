@@ -1,10 +1,12 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TRPO12_2.Data;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace TRPO12_2.Service
 {
@@ -20,27 +22,32 @@ namespace TRPO12_2.Service
 
         public void Add(Polzovat student)
         {
-            /*var _polzovat = new Polzovat
+            var _polzovat = new Polzovat
             {
                 Login = student.Login,
                 Name = student.Name,
                 Email = student.Email,
                 Password = student.Password,
                 CreateAt = DateTime.Now,
+                Passport = student.Passport,
+                Profile=student.Profile,
+                RoleId = student.RoleId,
+                Role = student.Role,
+
             };
             _db.Add<Polzovat>(_polzovat);
             Commit();
-            Polzovats.Add(_polzovat);*/
-            student.CreateAt = DateTime.Now;
+            Polzovats.Add(_polzovat);
+            /*student.CreateAt = DateTime.Now;
             _db.Add(student);
             Commit();
-            Polzovats.Add(student);
+            Polzovats.Add(student);*/
 
         }
         public int Commit() => _db.SaveChanges();
         public void GetAll()
         {
-            var polzovats = _db.Polzovats.ToList();
+            var polzovats = _db.Polzovats.Include(s => s.Passport).Include(s => s.Profile).Include(s => s.Role).ToList();
             Polzovats.Clear();
             foreach (var polzovat in polzovats)
             {

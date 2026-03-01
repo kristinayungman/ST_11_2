@@ -4,25 +4,21 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:TRPO12_2.Pages"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
             DataContext="{Binding RelativeSource={RelativeSource Self}}"
       Title="MainPage"
             Background="White">
-    <Page.Resources>
-        <Style TargetType="Button">
-            <Setter Property="Margin" Value="5"/>
-            <Setter Property="Padding" Value="5"/>
-        </Style>
-    </Page.Resources>
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="40"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <StackPanel Orientation="Horizontal">
-            <Button Click="go_form">Добавить</Button>
-            <Button Click="Button_Click_1">Удалить</Button>
+            <Button Margin="5" Padding="5" Click="go_form">Добавить</Button>
+            <Button Margin="5" Padding="5" Click="Button_Click_1">Удалить</Button>
+            <Button Margin="5" Padding="5" Click="go_roles">Роли</Button>
         </StackPanel>
         <ListView Grid.Row="1" ItemsSource="{Binding service.Polzovats}" MouseDoubleClick="Edit"
 SelectedItem="{Binding polzovat}">
@@ -33,6 +29,10 @@ SelectedItem="{Binding polzovat}">
                             <TextBlock Text="Идентификатор: "/>
                             <TextBlock Text="{Binding Id}"/>
                         </StackPanel>
+                        <TextBlock>
+                <Run Text="Роль: "/>
+                <Run Text="{Binding Role.Title}"/></TextBlock>
+
                         <StackPanel Orientation="Horizontal">
                             <TextBlock Text="Логин: "/>
                             <TextBlock Text="{Binding Login}"/>
@@ -53,6 +53,13 @@ SelectedItem="{Binding polzovat}">
                             <TextBlock Text="Дата и время создания пользователя: "/>
                             <TextBlock Text="{Binding CreateAt, StringFormat='{}{0:dd.MM.yyyy HH:mm:ss}'}"/>
                         </StackPanel>
+                        <TextBlock>Паспорт</TextBlock>
+                        <TextBlock>
+                    <Run Text="Серия: "/>
+                    <Run Text="{Binding Passport.Series}"/>
+                    <Run Text="Номер: "/>
+                    <Run Text="{Binding Passport.Number}"/>
+                        </TextBlock>
                     </StackPanel>
                 </DataTemplate>
             </ListView.ItemTemplate>
