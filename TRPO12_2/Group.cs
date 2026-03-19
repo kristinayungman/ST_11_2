@@ -22,11 +22,11 @@ namespace TRPO12_2
             get => _title;
             set => SetProperty(ref _title, value);
         }
-        private ObservableCollection<Polzovat> _polzovats;
+        /*private ObservableCollection<Polzovat> _polzovats;
         public ObservableCollection<Polzovat> Polzovats
         {
             get => _polzovats;
             set => SetProperty(ref _polzovats, value);
-        }
+        }*/
     }
 }

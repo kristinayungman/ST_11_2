@@ -22,6 +22,42 @@ namespace TRPO12_2.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("InterestGroupPolzovat", b =>
+                {
+                    b.Property<int>("InterestGroupsId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("PolzovatsId")
+                        .HasColumnType("int");
+
+                    b.HasKey("InterestGroupsId", "PolzovatsId");
+
+                    b.HasIndex("PolzovatsId");
+
+                    b.ToTable("InterestGroupPolzovat");
+                });
+
+            modelBuilder.Entity("TRPO12_2.InterestGroup", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("InterestGroups");
+                });
+
             modelBuilder.Entity("TRPO12_2.Passport", b =>
                 {
                     b.Property<int>("Id")
@@ -101,6 +137,27 @@ namespace TRPO12_2.Migrations
                     b.ToTable("Roles");
                 });
 
+            modelBuilder.Entity("TRPO12_2.UserInterestGroup", b =>
+                {
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("InterestGroupId")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("IsModerator")
+                        .HasColumnType("bit");
+
+                    b.Property<DateOnly>("JoinedAt")
+                        .HasColumnType("date");
+
+                    b.HasKey("UserId", "InterestGroupId");
+
+                    b.HasIndex("InterestGroupId");
+
+                    b.ToTable("UserInterestGroups");
+                });
+
             modelBuilder.Entity("TRPO12_2.UserProfile", b =>
                 {
                     b.Property<int>("Id")
@@ -132,6 +189,21 @@ namespace TRPO12_2.Migrations
                     b.ToTable("UserProfiles");
                 });
 
+            modelBuilder.Entity("InterestGroupPolzovat", b =>
+                {
+                    b.HasOne("TRPO12_2.InterestGroup", null)
+                        .WithMany()
+                        .HasForeignKey("InterestGroupsId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("TRPO12_2.Polzovat", null)
+                        .WithMany()
+                        .HasForeignKey("PolzovatsId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
             modelBuilder.Entity("TRPO12_2.Passport", b =>
                 {
                     b.HasOne("TRPO12_2.Polzovat", "Student")
@@ -154,6 +226,25 @@ namespace TRPO12_2.Migrations
                     b.Navigation("Role");
                 });
 
+            modelBuilder.Entity("TRPO12_2.UserInterestGroup", b =>
+                {
+                    b.HasOne("TRPO12_2.InterestGroup", "InterestGroup")
+                        .WithMany("UserInterestGroups")
+                        .HasForeignKey("InterestGroupId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("TRPO12_2.Polzovat", "Polzovat")
+                        .WithMany("UserInterestGroups")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("InterestGroup");
+
+                    b.Navigation("Polzovat");
+                });
+
             modelBuilder.Entity("TRPO12_2.UserProfile", b =>
                 {
                     b.HasOne("TRPO12_2.Polzovat", "Polzovat")
@@ -165,6 +256,11 @@ namespace TRPO12_2.Migrations
                     b.Navigation("Polzovat");
                 });
 
+            modelBuilder.Entity("TRPO12_2.InterestGroup", b =>
+                {
+                    b.Navigation("UserInterestGroups");
+                });
+
             modelBuilder.Entity("TRPO12_2.Polzovat", b =>
                 {
                     b.Navigation("Passport")
@@ -172,6 +268,8 @@ namespace TRPO12_2.Migrations
 
                     b.Navigation("Profile")
                         .IsRequired();
+
+                    b.Navigation("UserInterestGroups");
                 });
 
             modelBuilder.Entity("TRPO12_2.Role", b =>

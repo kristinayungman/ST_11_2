@@ -8,7 +8,7 @@
       xmlns:local="clr-namespace:TRPO12_2.Pages"
       xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
+      d:DesignHeight="750" d:DesignWidth="800"
       Title="PolzovatFormPage"
             Background="White"
       >
@@ -17,7 +17,11 @@
     </Page.Resources>
 
     <Grid>
-        <StackPanel>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Column="0">
             <StackPanel>
                         <Border BorderBrush="LightGray" BorderThickness="1" CornerRadius="4" Width="120" Height="120" HorizontalAlignment="Left">
                             <Image Source="{Binding Profile.AvatarUrl}"/>
@@ -156,6 +160,23 @@ ItemsSource="{Binding ElementName=NameTextBox, Path=(Validation.Errors)}">
                 <Button Click="Button_Click">Сохранить в БД</Button>
                 <Button Click="back">Назад</Button>
             </StackPanel>
+        </StackPanel>
+        <StackPanel Grid.Column="1">
+            <Button Content="Добавиться в группу" Click="Button_Click_1"></Button>
+            <ListView ItemsSource="{Binding UserInterestGroups}">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock>
+                <Run Text="Мои группы: "/>
+                <Run Text="{Binding InterestGroup.Title}"/>
+                <Run Text="{Binding JoinedAt, StringFormat={}{0:dd.MM.yyyy}}"/> 
+                <Run Text="{Binding IsModerator}"/>
+                        </TextBlock>
+                        </StackPanel>
+                    </DataTemplate>
+                    </ListView.ItemTemplate>
+            </ListView>
         </StackPanel>
     </Grid>
 </Page>

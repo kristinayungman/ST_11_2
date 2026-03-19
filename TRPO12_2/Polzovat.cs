@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -71,6 +72,20 @@ namespace TRPO12_2
         {
             get => _role;
             set => SetProperty(ref _role, value);
+        }
+
+
+        /*private ObservableCollection<InterestGroup> _interestGroup;
+        public ObservableCollection<InterestGroup> InterestGroups
+        {
+            get => _interestGroup;
+            set => SetProperty(ref _interestGroup, value);
+        }*/
+        private ObservableCollection<UserInterestGroup> _userInterestGroup;
+        public ObservableCollection<UserInterestGroup> UserInterestGroups
+        {
+            get => _userInterestGroup;
+            set => SetProperty(ref _userInterestGroup, value);
         }
 
     }

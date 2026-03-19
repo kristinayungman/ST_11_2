@@ -47,7 +47,7 @@ namespace TRPO12_2.Service
         public int Commit() => _db.SaveChanges();
         public void GetAll()
         {
-            var polzovats = _db.Polzovats.Include(s => s.Passport).Include(s => s.Profile).Include(s => s.Role).ToList();
+            var polzovats = _db.Polzovats.Include(s => s.Passport).Include(s => s.Profile).Include(u => u.UserInterestGroups).ThenInclude(uig => uig.InterestGroup).Include(s => s.Role).ToList();
             Polzovats.Clear();
             foreach (var polzovat in polzovats)
             {

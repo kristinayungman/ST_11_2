@@ -19,6 +19,7 @@
             <Button Margin="5" Padding="5" Click="go_form">Добавить</Button>
             <Button Margin="5" Padding="5" Click="Button_Click_1">Удалить</Button>
             <Button Margin="5" Padding="5" Click="go_roles">Роли</Button>
+            <Button Margin="5" Padding="5" Click="go_group">Группы</Button>
         </StackPanel>
         <ListView Grid.Row="1" ItemsSource="{Binding service.Polzovats}" MouseDoubleClick="Edit"
 SelectedItem="{Binding polzovat}">

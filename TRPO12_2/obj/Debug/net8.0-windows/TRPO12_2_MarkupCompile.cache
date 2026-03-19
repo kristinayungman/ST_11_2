@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\пр31Гариев\ТРПО2Сем\TRPO12_2\TRPO12_2\App.xaml
-51123958483
+8-1133315038
 22151776792
-36-1425039993
+46-1278059767
 2312139182659
-MainWindow.xaml;Pages\MainPage.xaml;Pages\PolzovatFormPage.xaml;Pages\RoleForm.xaml;Pages\RoleList.xaml;
+MainWindow.xaml;Pages\GroupForm.xaml;Pages\MainPage.xaml;Pages\PageGroup.xaml;Pages\PolzovatFormPage.xaml;Pages\PolzovatGroups.xaml;Pages\RoleForm.xaml;Pages\RoleList.xaml;
 
 False
 

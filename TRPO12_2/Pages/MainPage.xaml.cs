@@ -61,5 +61,10 @@ namespace TRPO12_2.Pages
         {
             NavigationService.Navigate(new RoleList());
         }
+
+        private void go_group(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new PageGroup());
+        }
     }
 }

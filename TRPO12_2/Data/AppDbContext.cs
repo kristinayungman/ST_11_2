@@ -14,6 +14,11 @@ namespace TRPO12_2.Data
         public DbSet<UserProfile> UserProfiles { get; set; }
         public DbSet<Polzovat> Polzovats { get; set; }
         public DbSet<Role> Roles { get; set; }
+
+      //  public DbSet <Group> Groups { get; set; }
+        public DbSet <InterestGroup> InterestGroups { get; set; }
+        
+        public DbSet <UserInterestGroup> UserInterestGroups { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer("Server=DESKTOP-MKEIMDD;Database=MYZd;Trusted_Connection=True;TrustServerCertificate=True;");
@@ -34,6 +39,21 @@ namespace TRPO12_2.Data
             .HasMany(g => g.Polzovats)
             .WithOne(s => s.Role)
             .HasForeignKey(s => s.RoleId);
+
+            // связь внешних ключей
+            modelBuilder.Entity<UserInterestGroup>()
+            .HasKey(cs => new { cs.UserId, cs.InterestGroupId });
+            // cвязь с таблицей Student
+            modelBuilder.Entity<UserInterestGroup>()
+            .HasOne(cs => cs.Polzovat)
+            .WithMany(s => s.UserInterestGroups)
+            .HasForeignKey(cs => cs.UserId);
+            // связь с таблицей Cource
+            modelBuilder.Entity<UserInterestGroup>()
+            .HasOne(cs => cs.InterestGroup)
+            .WithMany(c => c.UserInterestGroups)
+            .HasForeignKey(cs => cs.InterestGroupId);
+
         }
 
     }
